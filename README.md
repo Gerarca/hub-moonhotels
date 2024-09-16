@@ -139,6 +139,9 @@ Modelos JSON
 > git clone  git@github.com:Gerarca/hub-moonhotels.git
 > cd hub-moonhotels
 > rename file .env.example to .env
+> composer install
+> php artisan key:generate
+> npm install
 > php artisan serve
 > npm run dev
 
